@@ -1,0 +1,25 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-image{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)),url(./05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.mt-50{
+	margin-top: 50px;
+}
+#canvas{
+    border: 2px solid black;
+}
